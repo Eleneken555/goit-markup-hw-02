@@ -104,7 +104,7 @@ body {
 
 /* command */
 
-.command {
+.our-command {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -113,14 +113,19 @@ body {
 }
 
 .command-title {
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .command-text {
+  font-family: Roboto;
+  font-weight: normal;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: #757575;
 }
