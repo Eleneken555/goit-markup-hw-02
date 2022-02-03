@@ -5,6 +5,7 @@
   --white-color: #ffffff;
   --secondary-background-color: #e5e5e5;
   --button-secondary-color: #f5f4fa;
+  --third-background-color: #2f303a;
 }
 
 .visually-hidden {
@@ -28,7 +29,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 
 /* main text color #212121; */
@@ -40,7 +41,7 @@ body {
 /*header */
 
 .header {
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 
 .logo {
@@ -107,7 +108,7 @@ a {
 /* hero */
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--third-background-color);
 }
 
 .hero-title {
@@ -242,7 +243,7 @@ a {
 /*-- footer --*/
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--third-background-color);
 }
 
 .logo-footer {
@@ -268,7 +269,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 .mail-footer {
@@ -277,7 +278,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--title-text-color);
 }
 
 .tel-footer {
@@ -286,7 +287,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--title-text-color);
 }
 
 .street-footer:hover,
